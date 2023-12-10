@@ -8,7 +8,7 @@ interface Props{
 function ListGroups({items, header}: Props) {
   let items = ['Abebe', 'hebra', 'kida', 'yeab'];
         // items = [];
-        const [selectedIndex, setSelectedIndex] = useState(-1);
+        // const [selectedIndex, setSelectedIndex] = useState(-1);
     // const handleClick = (event: MouseEvent) => console.log(event);
   return (
         <><h1>{header}</h1>
